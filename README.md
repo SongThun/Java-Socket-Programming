@@ -14,7 +14,7 @@ This project is a simple chat application implemented in Java using socket progr
 
 ### Prerequisites
 
-- Java Development Kit (JDK) installed on your machine (version 8 or higher).
+- Java Development Kit (JDK) version 8 or higher.
 
 ### Installation
 
@@ -43,7 +43,7 @@ This project is a simple chat application implemented in Java using socket progr
 
 2. Start one or more clients (on different command prompts):
    ```bash
-   java Client
+   java Client [port_number]
    ```
 
 3. Enter your chat name when prompted and start chatting!
