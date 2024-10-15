@@ -2,6 +2,7 @@
 
 ## Overview
 **Computer Network Lab 1b**
+
 This project is a simple chat application implemented in Java using socket programming. It allows multiple clients to connect to a server and exchange messages in real time. The server can handle multiple client connections simultaneously, making use of multithreading to ensure that each client can send and receive messages without blocking others.
 
 ## Key Takeaways
