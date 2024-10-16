@@ -142,7 +142,7 @@ public class Server {
                 e.printStackTrace();
             } finally {
                 // Disconnect client
-                String exitMessage = String.format("** %s exit the chat. **", clientName);
+                String exitMessage = String.format("** %s left   the chat. **", clientName);
                 broadcastMessage(exitMessage, null, "");
                 clientHandler.closeConnection();
             }
