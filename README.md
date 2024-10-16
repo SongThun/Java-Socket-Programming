@@ -2,6 +2,7 @@
 
 ## Overview
 **Computer Network Lab 1b**
+
 This project is a simple chat application implemented in Java using socket programming. It allows multiple clients to connect to a server and exchange messages in real time. The server can handle multiple client connections simultaneously, making use of multithreading to ensure that each client can send and receive messages without blocking others.
 
 ## Key Takeaways
@@ -14,7 +15,7 @@ This project is a simple chat application implemented in Java using socket progr
 
 ### Prerequisites
 
-- Java Development Kit (JDK) installed on your machine (version 8 or higher).
+- Java Development Kit (JDK) version 8 or higher.
 
 ### Installation
 
@@ -43,7 +44,7 @@ This project is a simple chat application implemented in Java using socket progr
 
 2. Start one or more clients (on different command prompts):
    ```bash
-   java Client
+   java Client [port_number]
    ```
 
 3. Enter your chat name when prompted and start chatting!
